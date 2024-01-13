@@ -4,7 +4,7 @@ on:
   push:
     paths-ignore: ['**.md']
     branches:
-      - master
+      - windows-arm64
       - 'release/**'
     tags: ['*']
   pull_request:
